@@ -1,7 +1,8 @@
 #content {
-	width: 910px;
+	width: 906px;
 	border: 1px solid #000;
 	margin: 0px auto;
+	overflow: hidden;
 }
 
 .column-boxes {
@@ -10,8 +11,4 @@
 	position: relative;
 	float: left;
 	vertical-align: top;
-}
-
-.clear {
-	clear: both;
 }
