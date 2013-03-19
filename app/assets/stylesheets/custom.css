@@ -1,17 +1,15 @@
 #content {
-	width: 910px;
+	width: 906px;
 	border: 1px solid #000;
 	margin: 0px auto;
+	font-size: 0; /* to remove spacing between div caused by inline-block */
 }
 
 .column-boxes {
 	border: 1px solid #000;
 	width: 300px;
 	position: relative;
-	float: left;
+	display: inline-block;
 	vertical-align: top;
-}
-
-.clear {
-	clear: both;
+	font-size: 14px; /* reset back the font-size previously change from the parent */
 }
