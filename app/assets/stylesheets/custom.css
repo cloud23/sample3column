@@ -1,4 +1,17 @@
 #content {
-	width: 800px;
+	width: 910px;
 	border: 1px solid #000;
+	margin: 0px auto;
+}
+
+.column-boxes {
+	border: 1px solid #000;
+	width: 300px;
+	position: relative;
+	float: left;
+	vertical-align: top;
+}
+
+.clear {
+	clear: both;
 }
